@@ -10,6 +10,9 @@ public class Main {
         Car car2 = new Car("Honda", "Civic");
         Car car3 = new Car();
 
+        int x = 5;
+        Car honda = new Car();
+
         System.out.println(car1);
         System.out.println(car2);
         System.out.println(car3);
@@ -19,6 +22,8 @@ public class Main {
 
         //danny.age = -1; //blocked
         danny.setAge(-1);
+
+        System.out.println(danny);
 
         // class MobilePhone
         // data: String number, String color, float size, boolean isOn = false
@@ -39,7 +44,17 @@ public class Main {
         // try to change the number to "1234"
         // print the phones before and after
 
-        System.out.println(danny);
+        MobilePhone samsung = new MobilePhone("0542697161", "black", 6.4f);
+        MobilePhone iphone = new MobilePhone("0583697162", "pink", 6.0f);
+        MobilePhone xiaomi = new MobilePhone("0531296430", "red", 5.8f);
+        xiaomi.turnOnPhone();
+        xiaomi.setColor("green");
+        xiaomi.setSize(0.5f);;
+        xiaomi.setNumber("1234");
+
+        System.out.println("xiaomi = " + xiaomi);
+
+
 
     }
 }
