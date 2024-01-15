@@ -54,7 +54,8 @@ public class Main {
 
         System.out.println("xiaomi = " + xiaomi);
 
-
+        Circle c = new Circle(4f);
+        c.radius = 1.1f;
 
     }
 }
